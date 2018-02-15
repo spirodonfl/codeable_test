@@ -1,6 +1,6 @@
 # What is this?
 
-A test I took for Codeable. I failed it. They asked me to write a plugin that allowed for the shopping cart to inflate by 10% when certain products are in the cart. Products that trigger inflation should be configurable in the admin dashboard.
+A test I took for Codeable. I failed it. They asked me to write a plugin (woocommerce) that allowed for the shopping cart to inflate by 10% when certain products are in the cart. Products that trigger inflation should be configurable in the admin dashboard.
 
 # Why did you fail it?
 
