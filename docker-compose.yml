@@ -1,0 +1,22 @@
+version: '2'
+services:
+  wordpress:
+    image: wordpress:latest
+    ports:
+      - 9233:80
+    volumes:
+      - ./plugins:/var/www/html/wp-content/plugins
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: password
+    depends_on:
+      - db
+  db:
+    image: mysql:latest
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_DATABASE: wordpress
+      MYSQL_ROOT_PASSWORD: password
