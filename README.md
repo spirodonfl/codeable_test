@@ -6,7 +6,7 @@ A test I took for Codeable. I failed it.
 
 This is what our reviewer has to say:
 
-​- The plugin does not work and does not meet the request,
+- The plugin does not work and does not meet the request,
 - Code quality not good. Direct plugin access not prevented, strings not translatable, mix of OOP and functional programming...
 - Insufficient comments
 - The project does not meet the exercise request because I can only apply the surcharge by attribute, but I can't really select which product to apply on a per-product basis (as we ask). 
